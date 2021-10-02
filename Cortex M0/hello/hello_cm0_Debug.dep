@@ -1,0 +1,31 @@
+Dependencies for Project 'hello_cm0', Target 'Debug': (DO NOT MODIFY !)
+CompilerVersion: 5060960::V5.06 update 7 (build 960)::.\ARMCC
+F (..\..\..\..\software\cmsis\Device\ARM\CMSDK_CM0\Source\ARM\startup_CMSDK_CM0.s)(0x59D26CAF)(--cpu Cortex-M0 --li --pd "__EVAL SETA 1" -g --apcs=interwork --pd "__MICROLIB SETA 1"-I.\RTE\_Debug-IC:\Users\DELL\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\DELL\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\Device\ARM\ARMCM0\Include--pd "__UVISION_VERSION SETA 536" --pd "_RTE_ SETA 1" --pd "ARMCM0 SETA 1" --pd "_RTE_ SETA 1"--list .\startup_cmsdk_cm0.lst --xref -o .\startup_cmsdk_cm0.o --depend .\startup_cmsdk_cm0.d)
+F (.\hello.c)(0x6158420A)(-c --cpu Cortex-M0 -D__EVAL -D__MICROLIB --li -g -O3 --apcs=interwork -I ..\..\..\..\software\cmsis\CMSIS\Include -I ..\..\..\..\software\cmsis\Device\ARM\CMSDK_CM0\Include -I ..\..\..\..\software\common\retarget-I.\RTE\_Debug-IC:\Users\DELL\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\DELL\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\Device\ARM\ARMCM0\Include-D__UVISION_VERSION="536" -D_RTE_ -DARMCM0 -D_RTE_ -DCORTEX_M0-o .\hello.o --omf_browse .\hello.crf --depend .\hello.d)
+I (..\..\..\..\software\cmsis\Device\ARM\CMSDK_CM0\Include\CMSDK_CM0.h)(0x59D26CAF)
+I (..\..\..\..\software\cmsis\CMSIS\Include\core_cm0.h)(0x59D26CAF)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x602577DE)
+I (..\..\..\..\software\cmsis\CMSIS\Include\core_cmInstr.h)(0x59D26CAF)
+I (..\..\..\..\software\cmsis\CMSIS\Include\core_cmFunc.h)(0x59D26CAF)
+I (..\..\..\..\software\cmsis\Device\ARM\CMSDK_CM0\Include\system_CMSDK_CM0.h)(0x59D26CAF)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x602577D4)
+F (..\..\..\..\software\common\retarget\retarget.c)(0x59D26CAF)(-c --cpu Cortex-M0 -D__EVAL -D__MICROLIB --li -g -O3 --apcs=interwork -I ..\..\..\..\software\cmsis\CMSIS\Include -I ..\..\..\..\software\cmsis\Device\ARM\CMSDK_CM0\Include -I ..\..\..\..\software\common\retarget-I.\RTE\_Debug-IC:\Users\DELL\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\DELL\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\Device\ARM\ARMCM0\Include-D__UVISION_VERSION="536" -D_RTE_ -DARMCM0 -D_RTE_ -DCORTEX_M0-o .\retarget.o --omf_browse .\retarget.crf --depend .\retarget.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x602577D4)
+I (C:\Keil_v5\ARM\ARMCC\include\time.h)(0x602577D8)
+I (C:\Keil_v5\ARM\ARMCC\include\rt_misc.h)(0x602577D6)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x602577DE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x602577DE)
+F (..\..\..\..\software\common\retarget\uart_stdout.c)(0x59D26CAF)(-c --cpu Cortex-M0 -D__EVAL -D__MICROLIB --li -g -O3 --apcs=interwork -I ..\..\..\..\software\cmsis\CMSIS\Include -I ..\..\..\..\software\cmsis\Device\ARM\CMSDK_CM0\Include -I ..\..\..\..\software\common\retarget-I.\RTE\_Debug-IC:\Users\DELL\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\DELL\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\Device\ARM\ARMCM0\Include-D__UVISION_VERSION="536" -D_RTE_ -DARMCM0 -D_RTE_ -DCORTEX_M0-o .\uart_stdout.o --omf_browse .\uart_stdout.crf --depend .\uart_stdout.d)
+I (..\..\..\..\software\cmsis\Device\ARM\CMSDK_CM0\Include\CMSDK_CM0.h)(0x59D26CAF)
+I (..\..\..\..\software\cmsis\CMSIS\Include\core_cm0.h)(0x59D26CAF)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x602577DE)
+I (..\..\..\..\software\cmsis\CMSIS\Include\core_cmInstr.h)(0x59D26CAF)
+I (..\..\..\..\software\cmsis\CMSIS\Include\core_cmFunc.h)(0x59D26CAF)
+I (..\..\..\..\software\cmsis\Device\ARM\CMSDK_CM0\Include\system_CMSDK_CM0.h)(0x59D26CAF)
+F (..\..\..\..\software\cmsis\Device\ARM\CMSDK_CM0\Source\system_CMSDK_CM0.c)(0x59D26CAF)(-c --cpu Cortex-M0 -D__EVAL -D__MICROLIB --li -g -O3 --apcs=interwork -I ..\..\..\..\software\cmsis\CMSIS\Include -I ..\..\..\..\software\cmsis\Device\ARM\CMSDK_CM0\Include -I ..\..\..\..\software\common\retarget-I.\RTE\_Debug-IC:\Users\DELL\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\DELL\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\Device\ARM\ARMCM0\Include-D__UVISION_VERSION="536" -D_RTE_ -DARMCM0 -D_RTE_ -DCORTEX_M0-o .\system_cmsdk_cm0.o --omf_browse .\system_cmsdk_cm0.crf --depend .\system_cmsdk_cm0.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x602577DE)
+I (..\..\..\..\software\cmsis\Device\ARM\CMSDK_CM0\Include\CMSDK_CM0.h)(0x59D26CAF)
+I (..\..\..\..\software\cmsis\CMSIS\Include\core_cm0.h)(0x59D26CAF)
+I (..\..\..\..\software\cmsis\CMSIS\Include\core_cmInstr.h)(0x59D26CAF)
+I (..\..\..\..\software\cmsis\CMSIS\Include\core_cmFunc.h)(0x59D26CAF)
+I (..\..\..\..\software\cmsis\Device\ARM\CMSDK_CM0\Include\system_CMSDK_CM0.h)(0x59D26CAF)
