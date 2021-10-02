@@ -1,0 +1,49 @@
+# vsim work.tb_cmsdk_mcu 
+# Start time: 12:31:49 on Oct 02,2021
+# Loading work.tb_cmsdk_mcu
+# Loading work.cmsdk_mcu
+# Loading work.cmsdk_mcu_clkctrl
+# Loading work.cmsdk_mcu_system
+# Loading work.CORTEXM0INTEGRATION
+# Loading work.cortexm0ds_logic
+# Loading work.cmsdk_mcu_addr_decode
+# Loading work.cmsdk_ahb_slave_mux
+# Loading work.cmsdk_ahb_default_slave
+# Loading work.cmsdk_ahb_cs_rom_table
+# Loading work.cmsdk_mcu_sysctrl
+# Loading work.cmsdk_ahb_gpio
+# Loading work.cmsdk_ahb_to_iop
+# Loading work.cmsdk_iop_gpio
+# Loading work.cmsdk_apb_subsystem
+# Loading work.cmsdk_ahb_to_apb
+# Loading work.cmsdk_apb_slave_mux
+# Loading work.cmsdk_mcu_stclkctrl
+# Loading work.cmsdk_ahb_rom
+# Loading work.cmsdk_ahb_ram
+# Loading work.cmsdk_mcu_pin_mux
+# Loading work.cmsdk_clkreset
+# Loading work.cmsdk_uart_capture
+# Loading work.cmsdk_apb_timer
+# Loading work.cmsdk_apb_dualtimers
+# Loading work.cmsdk_apb_dualtimers_frc
+# Loading work.cmsdk_apb_watchdog
+# Loading work.cmsdk_apb_watchdog_frc
+# Loading work.cmsdk_apb_uart
+# Loading work.cmsdk_apb_test_slave
+# Loading work.cmsdk_ahb_ram_beh
+run -all
+# 45590 ns UART: 18  
+# 59370 ns UART: 22  
+# 73150 ns UART: 12  
+# 87210 ns UART: 20  
+# 100990 ns UART: 16  
+# 113070 ns UART: 4  
+# 127010 ns UART: 41  
+# 140790 ns UART: 49  
+# 154570 ns UART: 28  
+# 156870 ns UART: Test Ended
+# ** Note: $stop    : ../verilog/cmsdk_uart_capture.v(209)
+#    Time: 156870 ns  Iteration: 1  Instance: /tb_cmsdk_mcu/u_cmsdk_uart_capture
+# Break in NamedBeginStat p_sim_end at ../verilog/cmsdk_uart_capture.v line 209
+# End time: 14:14:15 on Oct 02,2021, Elapsed time: 1:42:26
+# Errors: 0, Warnings: 0

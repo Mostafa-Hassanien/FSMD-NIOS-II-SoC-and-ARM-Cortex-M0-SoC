@@ -1,0 +1,763 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/ENG/My_Work/SIEMENS_Internship/Final_Project/Part_3/cortexm0/systems/cortex_m0_mcu/rtl_sim
+vcmsdk_ahb_cs_rom_table
+Z1 !s110 1633170688
+!i10b 1
+!s100 XhHa0mh7mgK8MAdXCdX>N2
+IifRm:;8BZ56Fig^9cdTmN0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1506962608
+8../verilog/cmsdk_ahb_cs_rom_table.v
+F../verilog/cmsdk_ahb_cs_rom_table.v
+L0 67
+Z4 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z5 !s108 1633170687.000000
+Z6 !s107 E:\ENG\My_Work\SIEMENS_Internship\Final_Project\Part_3\cortexm0\systems\cortex_m0_mcu\verilog\..\..\..\logical\cmsdk_apb_watchdog\verilog/cmsdk_apb_watchdog_defs.v|E:\ENG\My_Work\SIEMENS_Internship\Final_Project\Part_3\cortexm0\systems\cortex_m0_mcu\verilog\..\..\..\logical\cmsdk_apb_dualtimers\verilog/cmsdk_apb_dualtimers_defs.v|E:\ENG\My_Work\SIEMENS_Internship\Final_Project\Part_3\cortexm0\systems\cortex_m0_mcu\verilog\..\..\..\logical\models\memories\/cmsdk_ahb_memory_models_defs.v|E:\ENG\My_Work\SIEMENS_Internship\Final_Project\Part_3\cortexm0\systems\cortex_m0_mcu\verilog\..\verilog\/cmsdk_mcu_defs.v|../verilog/tb_cmsdk_mcu.v|
+Z7 !s90 -F|..\verilog\tbench_M0_DS.vc|
+!i113 1
+Z8 o+libext+.v+.vlib
+Z9 !s92 +libext+.v+.vlib +incdir+../verilog/ -y ../verilog -y ../../../logical/cmsdk_apb_timer/verilog -y ../../../logical/cmsdk_apb_dualtimers/verilog -y ../../../logical/cmsdk_apb_uart/verilog -y ../../../logical/cmsdk_apb_watchdog/verilog -y ../../../logical/cmsdk_apb_slave_mux/verilog -y ../../../logical/cmsdk_apb_subsystem/verilog -y ../../../logical/cmsdk_ahb_slave_mux/verilog -y ../../../logical/cmsdk_ahb_default_slave/verilog -y ../../../logical/cmsdk_ahb_gpio/verilog -y ../../../logical/cmsdk_ahb_to_apb/verilog -y ../../../logical/models/clkgate -y ../../../logical/models/memories -y ../../../logical/cmsdk_iop_gpio/verilog +incdir+../../../logical/cmsdk_apb_dualtimers/verilog +incdir+../../../logical/cmsdk_apb_watchdog/verilog +incdir+../../../logical/models/memories/ -y ../../../cores/cortexm0_designstart_r2p0/logical/cortexm0_integration/verilog +incdir+../../../cores/cortexm0_designstart_r2p0/logical/cortexm0_integration/verilog
+Z10 tCvgOpt 0
+vcmsdk_ahb_default_slave
+R1
+!i10b 1
+!s100 3l^D6ZBf[9c`8TE3h`=Lj0
+I?^30XIdVRgV2;C^G:1z2:3
+R2
+R0
+w1506940714
+8../../../logical/cmsdk_ahb_default_slave/verilog/cmsdk_ahb_default_slave.v
+F../../../logical/cmsdk_ahb_default_slave/verilog/cmsdk_ahb_default_slave.v
+Z11 L0 30
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+R9
+R10
+vcmsdk_ahb_gpio
+R1
+!i10b 1
+!s100 1`W7C711<OoB7LenBYEKT0
+IW?@FLZUjc8F`^W8]fbKRg2
+R2
+R0
+Z12 w1506940717
+8../../../logical/cmsdk_ahb_gpio/verilog/cmsdk_ahb_gpio.v
+F../../../logical/cmsdk_ahb_gpio/verilog/cmsdk_ahb_gpio.v
+L0 24
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+R9
+R10
+vcmsdk_ahb_ram
+R1
+!i10b 1
+!s100 CiSHbmVa=6`GjCe8BCDb<0
+IWjK4Z@1<ABYfJAcC47TLF0
+R2
+R0
+Z13 w1506940716
+8../../../logical/models/memories/cmsdk_ahb_ram.v
+F../../../logical/models/memories/cmsdk_ahb_ram.v
+L0 48
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+R9
+R10
+vcmsdk_ahb_ram_beh
+R1
+!i10b 1
+!s100 zA<Vok_GCCN1@1m[lcMLd1
+I=NhRAm1@=RLj6lUV8LHJ=0
+R2
+R0
+R13
+8../../../logical/models/memories/cmsdk_ahb_ram_beh.v
+F../../../logical/models/memories/cmsdk_ahb_ram_beh.v
+Z14 L0 26
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+R9
+R10
+vcmsdk_ahb_rom
+R1
+!i10b 1
+!s100 Gh9IP3YJ4]WRc66lHWYZZ3
+IQLYXBP<UcO>Lj1BM75FY42
+R2
+R0
+R13
+8../../../logical/models/memories/cmsdk_ahb_rom.v
+F../../../logical/models/memories/cmsdk_ahb_rom.v
+L0 49
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+R9
+R10
+vcmsdk_ahb_slave_mux
+R1
+!i10b 1
+!s100 >Td5EY?:heU>gTDbnbZ>f2
+IWLMS7:;5]kG:0Y<IV3g_j3
+R2
+R0
+R12
+8../../../logical/cmsdk_ahb_slave_mux/verilog/cmsdk_ahb_slave_mux.v
+F../../../logical/cmsdk_ahb_slave_mux/verilog/cmsdk_ahb_slave_mux.v
+Z15 L0 28
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+R9
+R10
+vcmsdk_ahb_to_apb
+R1
+!i10b 1
+!s100 X[69aUolT88ihni;`>kY@0
+IYCVmhZHNRgG?XGH3;eI0]0
+R2
+R0
+Z16 w1506940713
+8../../../logical/cmsdk_ahb_to_apb/verilog/cmsdk_ahb_to_apb.v
+F../../../logical/cmsdk_ahb_to_apb/verilog/cmsdk_ahb_to_apb.v
+Z17 L0 31
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+R9
+R10
+vcmsdk_ahb_to_iop
+R1
+!i10b 1
+!s100 z<nhMLVGKZzgf9f2=RHPZ3
+ILJEmV2K?^RlL4`Da34Gf>2
+R2
+R0
+R12
+8../../../logical/cmsdk_ahb_gpio/verilog/cmsdk_ahb_to_iop.v
+F../../../logical/cmsdk_ahb_gpio/verilog/cmsdk_ahb_to_iop.v
+R15
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+R9
+R10
+vcmsdk_apb_dualtimers
+Z18 !s110 1633170690
+!i10b 1
+!s100 DPEDM<8P2dV2<M839hBiF3
+IzXkGe=5c^9c7]eZ6jB_oI2
+R2
+R0
+Z19 w1506940719
+8../../../logical/cmsdk_apb_dualtimers/verilog/cmsdk_apb_dualtimers.v
+F../../../logical/cmsdk_apb_dualtimers/verilog/cmsdk_apb_dualtimers.v
+Z20 FE:\ENG\My_Work\SIEMENS_Internship\Final_Project\Part_3\cortexm0\systems\cortex_m0_mcu\verilog\..\..\..\logical\cmsdk_apb_dualtimers\verilog/cmsdk_apb_dualtimers_defs.v
+R17
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+R9
+R10
+vcmsdk_apb_dualtimers_frc
+R18
+!i10b 1
+!s100 KO5K>g4R_=n?h>8JI]Z7E0
+IHKdB`ETNCQmAoVeCF`oGB2
+R2
+R0
+R19
+8../../../logical/cmsdk_apb_dualtimers/verilog/cmsdk_apb_dualtimers_frc.v
+F../../../logical/cmsdk_apb_dualtimers/verilog/cmsdk_apb_dualtimers_frc.v
+R20
+Z21 L0 32
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+R9
+R10
+vcmsdk_apb_slave_mux
+R18
+!i10b 1
+!s100 ZMaD=_e8`eWTAm5o[Dg3S3
+IZcLO6M>ZFDH6OB@BO5>=e1
+R2
+R0
+w1506940718
+8../../../logical/cmsdk_apb_slave_mux/verilog/cmsdk_apb_slave_mux.v
+F../../../logical/cmsdk_apb_slave_mux/verilog/cmsdk_apb_slave_mux.v
+R14
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+R9
+R10
+vcmsdk_apb_subsystem
+R1
+!i10b 1
+!s100 cT9B6@>Q4@kW^8Mz;R;[Z2
+ISFozOW2L3@:8QZGf;Veo21
+R2
+R0
+R16
+8../../../logical/cmsdk_apb_subsystem/verilog/cmsdk_apb_subsystem.v
+F../../../logical/cmsdk_apb_subsystem/verilog/cmsdk_apb_subsystem.v
+R14
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+R9
+R10
+vcmsdk_apb_test_slave
+R1
+!i10b 1
+!s100 ?nBX^eln<jW>gEm?T5YCS0
+IDXnglKKH_OI^:XF0oG[Eo3
+R2
+R0
+R16
+8../../../logical/cmsdk_apb_subsystem/verilog/cmsdk_apb_test_slave.v
+F../../../logical/cmsdk_apb_subsystem/verilog/cmsdk_apb_test_slave.v
+L0 42
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+R9
+R10
+vcmsdk_apb_timer
+R18
+!i10b 1
+!s100 BeS;nfA1]2AFH`ZWCM2dd2
+IQkAAPCFlF?gXn38jI<0Wi0
+R2
+R0
+Z22 w1506940711
+8../../../logical/cmsdk_apb_timer/verilog/cmsdk_apb_timer.v
+F../../../logical/cmsdk_apb_timer/verilog/cmsdk_apb_timer.v
+L0 41
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+R9
+R10
+vcmsdk_apb_uart
+R18
+!i10b 1
+!s100 MJ5=R<UIBQlOVH`=<1DD_2
+IbL4?]Mf@99Bg`OAeOM?V72
+R2
+R0
+R13
+8../../../logical/cmsdk_apb_uart/verilog/cmsdk_apb_uart.v
+F../../../logical/cmsdk_apb_uart/verilog/cmsdk_apb_uart.v
+L0 53
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+R9
+R10
+vcmsdk_apb_watchdog
+R18
+!i10b 1
+!s100 6z1ecmD:`>K[8g1VAE=T03
+I23mnlC8;XP3jz;:VRIkb40
+R2
+R0
+R16
+8../../../logical/cmsdk_apb_watchdog/verilog/cmsdk_apb_watchdog.v
+F../../../logical/cmsdk_apb_watchdog/verilog/cmsdk_apb_watchdog.v
+Z23 FE:\ENG\My_Work\SIEMENS_Internship\Final_Project\Part_3\cortexm0\systems\cortex_m0_mcu\verilog\..\..\..\logical\cmsdk_apb_watchdog\verilog/cmsdk_apb_watchdog_defs.v
+Z24 L0 29
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+R9
+R10
+vcmsdk_apb_watchdog_frc
+R18
+!i10b 1
+!s100 zFg4ZLP5;<IR@R3d]D2gG3
+I1cjcoLLKHzbUjkHSb0S1d0
+R2
+R0
+R16
+8../../../logical/cmsdk_apb_watchdog/verilog/cmsdk_apb_watchdog_frc.v
+F../../../logical/cmsdk_apb_watchdog/verilog/cmsdk_apb_watchdog_frc.v
+R23
+Z25 L0 33
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+R9
+R10
+vcmsdk_clkreset
+R1
+!i10b 1
+!s100 `@4c;F40AhTjK50hKKRKA1
+IjE5IaWOBIIzae:a^ZNDYn3
+R2
+R0
+R3
+8../verilog/cmsdk_clkreset.v
+F../verilog/cmsdk_clkreset.v
+R11
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+R9
+R10
+vcmsdk_clock_gate
+R1
+!i10b 1
+!s100 VZL]D_nFH3R3C<oP]UK1c2
+I2WBW4C4V42khRSg`S9U9e0
+R2
+R0
+R13
+8../../../logical/models/clkgate/cmsdk_clock_gate.v
+F../../../logical/models/clkgate/cmsdk_clock_gate.v
+R15
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+R9
+R10
+vcmsdk_iop_gpio
+Z26 !s110 1633170689
+!i10b 1
+!s100 Wh@kzQXQaCgI7ze6YCBXM2
+I8_3PWDecR4e^i<^lnM86E2
+R2
+R0
+R22
+8../../../logical/cmsdk_iop_gpio/verilog/cmsdk_iop_gpio.v
+F../../../logical/cmsdk_iop_gpio/verilog/cmsdk_iop_gpio.v
+Z27 L0 46
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+R9
+R10
+vcmsdk_irq_sync
+R1
+!i10b 1
+!s100 ea6Xnnn2]o;@2?]K2k=Fa3
+I_@I4nz^]iN3YeD?^M><2R1
+R2
+R0
+R16
+8../../../logical/cmsdk_apb_subsystem/verilog/cmsdk_irq_sync.v
+F../../../logical/cmsdk_apb_subsystem/verilog/cmsdk_irq_sync.v
+R14
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+R9
+R10
+vcmsdk_mcu
+R1
+!i10b 1
+!s100 n_@<Sl1HaWn[G9mn?@bVE2
+I_]56`eM3C7dJC9SOIR4Jk3
+R2
+R0
+R3
+8../verilog/cmsdk_mcu.v
+F../verilog/cmsdk_mcu.v
+R21
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+R9
+R10
+vcmsdk_mcu_addr_decode
+R1
+!i10b 1
+!s100 `lW4CQ[8HBii?M5RVFNUB0
+I4h5O9PPnXTLVHmmTBIMXG1
+R2
+R0
+R3
+8../verilog/cmsdk_mcu_addr_decode.v
+F../verilog/cmsdk_mcu_addr_decode.v
+R25
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+R9
+R10
+vcmsdk_mcu_clkctrl
+R1
+!i10b 1
+!s100 aOCm1dAGVkAcZNL`c9MLD2
+IP0I=1;2IUZ59<fM<OlL;[2
+R2
+R0
+R3
+8../verilog/cmsdk_mcu_clkctrl.v
+F../verilog/cmsdk_mcu_clkctrl.v
+R25
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+R9
+R10
+vcmsdk_mcu_pin_mux
+R1
+!i10b 1
+!s100 Q42^0gC^ZAo6m<J2AD2zn1
+IZJB5?b@WZKn8NSc8ANTb20
+R2
+R0
+R3
+8../verilog/cmsdk_mcu_pin_mux.v
+F../verilog/cmsdk_mcu_pin_mux.v
+R11
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+R9
+R10
+vcmsdk_mcu_stclkctrl
+R1
+!i10b 1
+!s100 6eLf@8fQ<42ec89RA<:6^1
+I><gO^aQ[FN9dPBoi<m0j:0
+R2
+R0
+R3
+8../verilog/cmsdk_mcu_stclkctrl.v
+F../verilog/cmsdk_mcu_stclkctrl.v
+R24
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+R9
+R10
+vcmsdk_mcu_sysctrl
+R1
+!i10b 1
+!s100 had^Gl:E9JdQiAl=?IGl20
+Ig^7P7Bch^9ko`LMi?WTma1
+R2
+R0
+R3
+8../verilog/cmsdk_mcu_sysctrl.v
+F../verilog/cmsdk_mcu_sysctrl.v
+R27
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+R9
+R10
+vcmsdk_mcu_system
+R1
+!i10b 1
+!s100 Wa]PzQemLASQHD3RM29UE0
+I4`0zKzj7_00T6U@FZDCAo2
+R2
+R0
+R3
+8../verilog/cmsdk_mcu_system.v
+F../verilog/cmsdk_mcu_system.v
+L0 39
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+R9
+R10
+vcmsdk_sram256x16
+R1
+!i10b 1
+!s100 71A<1Z2fYzVEB69bNN8BM0
+I8VBGf0^M2S;WzdCY315@>0
+R2
+R0
+R13
+8../../../logical/models/memories/cmsdk_sram256x16.v
+F../../../logical/models/memories/cmsdk_sram256x16.v
+Z28 L0 27
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+R9
+R10
+vcmsdk_uart_capture
+R1
+!i10b 1
+!s100 I`53l;CO]mkglMZnSnT`?1
+IHP61=_Q=4hA;4J6C54E<z0
+R2
+R0
+R3
+8../verilog/cmsdk_uart_capture.v
+F../verilog/cmsdk_uart_capture.v
+L0 45
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+R9
+R10
+vcortexm0ds_logic
+R18
+!i10b 1
+!s100 4G9`U6X@Q5Y;CE1JT69Oe0
+I]7M9zN6`=lUo<_ac2gXPN1
+R2
+R0
+Z29 w1506940729
+8../../../cores/cortexm0_designstart_r2p0/logical/cortexm0_integration/verilog/cortexm0ds_logic.v
+F../../../cores/cortexm0_designstart_r2p0/logical/cortexm0_integration/verilog/cortexm0ds_logic.v
+R28
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+R9
+R10
+vCORTEXM0INTEGRATION
+R26
+!i10b 1
+!s100 TCD=KZAV<Y?Kng7md:BmH2
+IUQ90eHEONG>[i8I3YUkL01
+R2
+R0
+R29
+8../../../cores/cortexm0_designstart_r2p0/logical/cortexm0_integration/verilog/CORTEXM0INTEGRATION.v
+F../../../cores/cortexm0_designstart_r2p0/logical/cortexm0_integration/verilog/CORTEXM0INTEGRATION.v
+R24
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+R9
+R10
+n@c@o@r@t@e@x@m0@i@n@t@e@g@r@a@t@i@o@n
+vtb_cmsdk_mcu
+R1
+!i10b 1
+!s100 lRH^2JmGeH6kW>6J>ERhF3
+IMaLleUFL_S28ani04Jo6U1
+R2
+R0
+R3
+8../verilog/tb_cmsdk_mcu.v
+F../verilog/tb_cmsdk_mcu.v
+R21
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+R9
+R10
