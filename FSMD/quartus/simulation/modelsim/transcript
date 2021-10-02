@@ -1,0 +1,33 @@
+# vsim work.Top_Module -sdftyp .\Top_Module_vhd.sdo 
+# Start time: 20:49:55 on Sep 29,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.vital_timing(body)
+# Loading ieee.vital_primitives(body)
+# Loading altera.dffeas_pack
+# Loading altera.altera_primitives_components
+# Loading cycloneive.cycloneive_atom_pack(body)
+# Loading cycloneive.cycloneive_components
+# Loading work.top_module(structure)
+# SDF 10.5b Compiler 2016.10 Oct  5 2016
+# 
+# Loading work.hard_block(structure)
+# Loading ieee.std_logic_arith(body)
+# Loading cycloneive.cycloneive_io_obuf(arch)
+# Loading cycloneive.cycloneive_io_ibuf(arch)
+# Loading cycloneive.cycloneive_clkctrl(vital_clkctrl)
+# Loading cycloneive.cycloneive_ena_reg(behave)
+# Loading cycloneive.cycloneive_lcell_comb(vital_lcell_comb)
+# Loading altera.dffeas(vital_dffeas)
+# Loading cycloneive.cycloneive_ram_block(block_arch)
+# Loading cycloneive.cycloneive_ram_register(reg_arch)
+# Loading cycloneive.cycloneive_ram_pulse_generator(pgen_arch)
+# Loading instances from .\Top_Module_vhd.sdo
+# Loading timing data from .\Top_Module_vhd.sdo
+# ** Warning: Design size of 18860 statements exceeds ModelSim-Intel FPGA Starter Edition recommended capacity.
+# Expect performance to be adversely affected.
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /top_module File: ./Top_Module.vho
+# End time: 20:51:34 on Sep 29,2021, Elapsed time: 0:01:39
+# Errors: 0, Warnings: 1
