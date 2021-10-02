@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Fri Oct 01 19:00:46 2021
+Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+Revision Name : soc_nios
+Top-level Entity Name : soc_nios
+Family : Cyclone IV E
+Total logic elements : 1,970
+    Total combinational functions : 1,724
+    Dedicated logic registers : 1,047
+Total registers : 1047
+Total pins : 10
+Total virtual pins : 0
+Total memory bits : 404,480
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0
