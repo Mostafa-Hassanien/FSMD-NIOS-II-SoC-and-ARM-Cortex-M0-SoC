@@ -1,0 +1,14 @@
+
+State Machine - |Top_Module|FSM_Controller:U1_FSM|Current_State
+Name Current_State.S_Show_Data Current_State.S_Show_One_Input Current_State.S_9 Current_State.S_8 Current_State.S_7 Current_State.S_6 Current_State.S_5 Current_State.S_4 Current_State.S_3 Current_State.S_2 Current_State.S_1 
+Current_State.S_1 0 0 0 0 0 0 0 0 0 0 0 
+Current_State.S_2 0 0 0 0 0 0 0 0 0 1 1 
+Current_State.S_3 0 0 0 0 0 0 0 0 1 0 1 
+Current_State.S_4 0 0 0 0 0 0 0 1 0 0 1 
+Current_State.S_5 0 0 0 0 0 0 1 0 0 0 1 
+Current_State.S_6 0 0 0 0 0 1 0 0 0 0 1 
+Current_State.S_7 0 0 0 0 1 0 0 0 0 0 1 
+Current_State.S_8 0 0 0 1 0 0 0 0 0 0 1 
+Current_State.S_9 0 0 1 0 0 0 0 0 0 0 1 
+Current_State.S_Show_One_Input 0 1 0 0 0 0 0 0 0 0 1 
+Current_State.S_Show_Data 1 0 0 0 0 0 0 0 0 0 1 
